@@ -1,0 +1,5 @@
+﻿  Window.cpp
+..\Window.cpp(138): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+..\Window.cpp(143): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+..\Window.cpp(205): error C2653: 'Rasterizer': is not a class or namespace name
+..\Window.cpp(205): error C2660: 'displayCallback': function does not take 0 arguments

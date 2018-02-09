@@ -1,0 +1,39 @@
+﻿  Window.cpp
+  OBJObject.cpp
+  main.cpp
+  Cube.cpp
+  Generating Code...
+Cube.obj : error LNK2019: unresolved external symbol __imp_glBegin referenced in function "public: void __cdecl Cube::draw(void)" (?draw@Cube@@QEAAXXZ)
+OBJObject.obj : error LNK2001: unresolved external symbol __imp_glBegin
+Cube.obj : error LNK2019: unresolved external symbol __imp_glColor3f referenced in function "public: void __cdecl Cube::draw(void)" (?draw@Cube@@QEAAXXZ)
+Cube.obj : error LNK2019: unresolved external symbol __imp_glEnd referenced in function "public: void __cdecl Cube::draw(void)" (?draw@Cube@@QEAAXXZ)
+OBJObject.obj : error LNK2001: unresolved external symbol __imp_glEnd
+Cube.obj : error LNK2019: unresolved external symbol __imp_glMatrixMode referenced in function "public: void __cdecl Cube::draw(void)" (?draw@Cube@@QEAAXXZ)
+OBJObject.obj : error LNK2001: unresolved external symbol __imp_glMatrixMode
+Window.obj : error LNK2001: unresolved external symbol __imp_glMatrixMode
+Cube.obj : error LNK2019: unresolved external symbol __imp_glMultMatrixf referenced in function "public: void __cdecl Cube::draw(void)" (?draw@Cube@@QEAAXXZ)
+OBJObject.obj : error LNK2001: unresolved external symbol __imp_glMultMatrixf
+Cube.obj : error LNK2019: unresolved external symbol __imp_glNormal3f referenced in function "public: void __cdecl Cube::draw(void)" (?draw@Cube@@QEAAXXZ)
+Cube.obj : error LNK2019: unresolved external symbol __imp_glPopMatrix referenced in function "public: void __cdecl Cube::draw(void)" (?draw@Cube@@QEAAXXZ)
+OBJObject.obj : error LNK2001: unresolved external symbol __imp_glPopMatrix
+Cube.obj : error LNK2019: unresolved external symbol __imp_glPushMatrix referenced in function "public: void __cdecl Cube::draw(void)" (?draw@Cube@@QEAAXXZ)
+OBJObject.obj : error LNK2001: unresolved external symbol __imp_glPushMatrix
+Cube.obj : error LNK2019: unresolved external symbol __imp_glVertex3f referenced in function "public: void __cdecl Cube::draw(void)" (?draw@Cube@@QEAAXXZ)
+OBJObject.obj : error LNK2001: unresolved external symbol __imp_glVertex3f
+main.obj : error LNK2019: unresolved external symbol __imp_glClearColor referenced in function "void __cdecl setup_opengl_settings(void)" (?setup_opengl_settings@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glColorMaterial referenced in function "void __cdecl setup_materials(void)" (?setup_materials@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glDepthFunc referenced in function "void __cdecl setup_opengl_settings(void)" (?setup_opengl_settings@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glDisable referenced in function "void __cdecl setup_opengl_settings(void)" (?setup_opengl_settings@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glEnable referenced in function "void __cdecl setup_lighting(void)" (?setup_lighting@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glGetString referenced in function "void __cdecl print_versions(void)" (?print_versions@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glLightModelf referenced in function "void __cdecl setup_lighting(void)" (?setup_lighting@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glLightfv referenced in function "void __cdecl setup_lighting(void)" (?setup_lighting@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glMaterialfv referenced in function "void __cdecl setup_materials(void)" (?setup_materials@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glPolygonMode referenced in function "void __cdecl setup_opengl_settings(void)" (?setup_opengl_settings@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glShadeModel referenced in function "void __cdecl setup_opengl_settings(void)" (?setup_opengl_settings@@YAXXZ)
+Window.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function "public: static void __cdecl Window::display_callback(struct GLFWwindow *)" (?display_callback@Window@@SAXPEAUGLFWwindow@@@Z)
+Window.obj : error LNK2019: unresolved external symbol __imp_glLoadIdentity referenced in function "public: static void __cdecl Window::display_callback(struct GLFWwindow *)" (?display_callback@Window@@SAXPEAUGLFWwindow@@@Z)
+Window.obj : error LNK2019: unresolved external symbol __imp_glTranslatef referenced in function "public: static void __cdecl Window::resize_callback(struct GLFWwindow *,int,int)" (?resize_callback@Window@@SAXPEAUGLFWwindow@@HH@Z)
+Window.obj : error LNK2019: unresolved external symbol __imp_glViewport referenced in function "public: static void __cdecl Window::resize_callback(struct GLFWwindow *,int,int)" (?resize_callback@Window@@SAXPEAUGLFWwindow@@HH@Z)
+Window.obj : error LNK2019: unresolved external symbol gluPerspective referenced in function "public: static void __cdecl Window::resize_callback(struct GLFWwindow *,int,int)" (?resize_callback@Window@@SAXPEAUGLFWwindow@@HH@Z)
+C:\Users\Dale\Documents\_Schoolwork\Year 4\Fall 2016\CSE 167 - Computer Graphics\Project 1\Take 2\CSE167StarterCode-master\CSE167StarterCode-master\x64\Debug\GLFWStarterProject.exe : fatal error LNK1120: 25 unresolved externals
